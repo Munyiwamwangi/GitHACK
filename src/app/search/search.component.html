@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container-fluid">
 
     <body>
-        <form autocomplete="on">
+        <form autocomplete="off">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Enter Username" [(ngModel)]='username'
                     name='username'>
@@ -25,16 +25,23 @@
             </div>
         </div>
         <hr size=4>
-        <hr><hr>
+
         <div class="row">
             <div class="repobox text-center">
-                <p><strong style="font-family: 'Hanalei Fill', cursive;" >Existing Repositories</strong></p>
+               <hr size=3>
+               <p><strong style="font-size:2em; font-family: 'Amarante', cursive; text-decoration: underline-above" >Existing Repositories
+                  </strong>
+               </p>
+               <hr>
                 <li type="1" *ngFor='let repo of repositories'>
                     <a href="{{repo.html_url}}">
-                        <p class="text-center" >Name:{{repo.name}}</p>
+                        <p class="text-center" >Name:{{repo.name}}
+                        </p>
                     </a>
 
-                    <p> <span style="font-color:blockquote">Description:</span>  {{repo.description}}</p>
+                    <p> <span style="font-family: 'Amarante', cursive;">Description:
+                    </span>  {{repo.description}}
+                    </p>
                 </li>
             </div>
         </div>

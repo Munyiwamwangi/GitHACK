@@ -3,11 +3,12 @@
 .repobox {
    background-color: lightgrey;
    border-radius: rgb(255, 0, 0);
-   font-size: 1.5em;
+   font-size: 1em;
    font-style: oblique;
+   opacity:.7;
 }
 body{
-   background-image: url();
+   background-image: url('./assets/dtest1.png');
    background-repeat: no-repeat;;
    background-size: cover;
 }
