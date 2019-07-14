@@ -24,15 +24,17 @@
                 </p>
             </div>
         </div>
+        <hr size=4>
+        <hr><hr>
         <div class="row">
-            <div class="repobox">
-                <p><strong>Existing Repositories</strong></p>
+            <div class="repobox text-center">
+                <p><strong style="font-family: 'Hanalei Fill', cursive;" >Existing Repositories</strong></p>
                 <li type="1" *ngFor='let repo of repositories'>
                     <a href="{{repo.html_url}}">
-                        <p>name:{{repo.name}}</p>
+                        <p class="text-center" >Name:{{repo.name}}</p>
                     </a>
 
-                    <p>Description {{repo.description}}</p>
+                    <p> <span style="font-color:blockquote">Description:</span>  {{repo.description}}</p>
                 </li>
             </div>
         </div>
