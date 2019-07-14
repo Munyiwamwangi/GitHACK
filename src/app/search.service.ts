@@ -45,7 +45,7 @@ export class SearchService {
     return promise;
 
 
-  }// End of fetch
+  }
 
   fetchRepoInformation() {
     interface ApiInterface {

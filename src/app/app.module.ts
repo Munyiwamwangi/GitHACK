@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { SearchService } from './search.service';
 import { NavComponent } from './nav/nav.component';
+import { DesigningComponent } from './designing/designing.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     SearchComponent,
-    NavComponent
+    NavComponent,
+    DesigningComponent
   ],
   imports: [
     BrowserModule,
