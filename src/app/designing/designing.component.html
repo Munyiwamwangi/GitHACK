@@ -1,1 +1,10 @@
-<p>designing works!</p>
+<div>
+   <p><strong>Existing Repositories</strong></p>
+   <li type="1" *ngFor='let repo of repositories'>
+        <a href="{{repo.html_url}}">
+            <p>name:{{repo.name}}</p>
+        </a>
+
+        <p>Description {{repo.description}}</p>
+   </li>
+</div>

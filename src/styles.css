@@ -1,2 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+.repobox {
+   background-color: lightgrey;
+   border:5px 5px double solid-black;
+   border-radius: 200%;
+}

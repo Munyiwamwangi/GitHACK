@@ -27,7 +27,6 @@ export class SearchComponent implements OnInit {
     this.getService.fetchRepoInformation();
   }
 
-
   ngOnInit() {
     this.getService.fetchUserInformation();
     this.user = this.getService.user;
