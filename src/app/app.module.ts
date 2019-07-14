@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 
-import { RouterModule, Routes } from '@angular/router'
+import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
@@ -13,16 +13,14 @@ import { NavComponent } from './nav/nav.component';
 
 
 const routes: Routes = [
-  { path: 'Home', component: SearchComponent },
-  { path: "Search", component: NavComponent }
 
-]
+];
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    NavComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

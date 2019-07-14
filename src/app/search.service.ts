@@ -14,7 +14,7 @@ export class SearchService {
   constructor(private http: HttpClient) {
     this.user = new User('', '', '', 0, 0, '');
     this.repos = [];
-    this.username = 'lilianwaweru';
+    this.username = 'Munyiwamwangi';
   }
 
   fetchUserInformation() {
@@ -26,7 +26,7 @@ export class SearchService {
       following: 0;
       created_at: string;
     }
-    let promise = new Promise((resolve, reject) => {
+    const promise = new Promise((resolve, reject) => {
       this.http.get<ApiInterface>(environment.apiUrl + this.username + environment.token).toPromise().then(response => {
         this.user.login = response.login;
         this.user.avatar_url = response.avatar_url;
@@ -45,7 +45,7 @@ export class SearchService {
     return promise;
 
 
-  }//End of fetch
+  }// End of fetch
 
   fetchRepoInformation() {
     interface ApiInterface {
@@ -53,7 +53,7 @@ export class SearchService {
       html_url: string;
       description: string;
     }
-    let promise = new Promise((resolve, reject) => {
+    const promise = new Promise((resolve, reject) => {
       this.http.get<ApiInterface[]>(environment.apiUrl + this.username + '/repos' + environment.token).toPromise().then(response => {
         response.forEach(repository => {
           this.repos.push(new Repository(repository.name, repository.html_url, repository.description));
