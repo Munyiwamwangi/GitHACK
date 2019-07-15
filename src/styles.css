@@ -1,14 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
 .repobox {
-   background-color: lightgrey;
-   border-radius: rgb(255, 0, 0);
-   font-size: 1em;
-   font-style: oblique;
-   opacity:.7;
+  background-color: lightgrey;
+  border-radius: rgb(255, 0, 0);
+  font-size: 1em;
+  font-style: oblique;
+  opacity: .7;
 }
-body{
-   background-image: url('./assets/dtest1.png');
-   background-repeat: no-repeat;;
-   background-size: cover;
+
+body {
+  background-image: url('./assets/dtest2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brightfont {
+  color: azure;
+  font-family: 'Amarante', cursive;
+  font-size: 2em;
+}
+.avtr{
+left: 10%;
 }

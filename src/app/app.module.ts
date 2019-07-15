@@ -9,10 +9,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { SearchService } from './search.service';
-import { NavComponent } from './nav/nav.component';
 import { DesigningComponent } from './designing/designing.component';
-
-
+import { RepoboxDirective } from './repobox.directive';
+import { DateCheckPipe } from './date-check.pipe';
 const routes: Routes = [
 
 ];
@@ -21,8 +20,9 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     SearchComponent,
-    NavComponent,
-    DesigningComponent
+    DesigningComponent,
+    RepoboxDirective,
+    DateCheckPipe
   ],
   imports: [
     BrowserModule,
