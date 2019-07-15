@@ -7,6 +7,8 @@
 .descriptionbox{
     border: 5px 5px 5px solid seagreen;
     background-color:rgb(134, 243, 107);
-    width: 10%;
-
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10%;
 }
