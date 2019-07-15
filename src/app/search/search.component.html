@@ -45,14 +45,14 @@
                     </strong>
                 </p>
                 <hr>
-                <div class="descriptionbox">
+                <div >
                     <li type="1" *ngFor='let repo of repositories'>
                         <a href="{{repo.html_url}}">
                             <p class="text-center">Name : {{repo.name}}
                             </p>
                         </a>
-                        <p> <span style="font-family: 'Amarante', cursive;">Description :
-                            </span> {{ repo.description }}
+                        <p class="descriptionbox"> <span style="font-family: 'Amarante', cursive;">Description :
+                            </span> <span> {{ repo.description }}</span>
                         </p>
                     </li>
                 </div>
