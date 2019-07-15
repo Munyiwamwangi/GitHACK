@@ -6,7 +6,7 @@ Munyi Mwangi W
 
 ## Description
 
-This is a program to enable a user to view quotes vote for their favorite quotes and also create new quotes. The highest voted quote will be highlighted
+This App searches through github username and displays the users profile information as well as their repositories and gives access to repositories and permissions such as delete and edit
 
 ## Getting Started
 
@@ -67,7 +67,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 | Input   |  Behavior | Expected Output|
 |:--------|:---------|:--------------|
 |GitHUB username| Displays user profile | Display user profile information|
-|GitHUB username|searches and displays user repositories|Displays user repositories|Accumulates number of votes and highlights the vote with the highest likes|
+|GitHUB username|searches and displays user repositories|Displays user repositories|
 
 ## Built With
 
