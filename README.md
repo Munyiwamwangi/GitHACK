@@ -67,7 +67,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 | Input   |  Behavior | Expected Output|
 |:--------|:---------|:--------------|
 |GitHUB username| Displays user profile | Display user profile information|
-|Vote for a quote|Accumulates number of votes and highlights the vote with the highest likes|Vote for a quote|Accumulates number of votes and highlights the vote with the highest likes|
+|GitHUB username|searches and displays user repositories|Displays user repositories|Accumulates number of votes and highlights the vote with the highest likes|
 
 ## Built With
 
@@ -77,7 +77,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 * TYPESCRIPT - Language to write angular applications
 * ANGULAR JS - Templates;
 
+## Contributing
 
+If you want to put out a pull request you first have to send us the sample code that you want to add to our repository for cross-checking before we allow the pull.
 
 ## Versioning
 
@@ -102,5 +104,3 @@ This project is licensed under the MIT License - see the LICENSE file below for 
 ## Acknowledgments
 
 * Munyi Mwangi
-* e.t.c
- 
