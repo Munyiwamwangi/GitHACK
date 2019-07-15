@@ -87,7 +87,7 @@ We use currently have only the first version of this application.
 
 ## Link to live App
 
-<a href="https://munyiwamwangi.github.io/Quotes-App/">Link to live site</a>
+<a href="https://munyiwamwangi.github.io/GitHACK/">Link to live site</a>
 
 ## Authors
 
